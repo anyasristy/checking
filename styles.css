@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #f6d365, #fda085);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .page {
+    background: white;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  input {
+    width: 90%;
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 1rem;
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    background-color: #ff7675;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d63031;
+  }
+  
+  .result-box {
+    background: #ffeaa7;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  
+  .progress-bar-container {
+    background: #eee;
+    height: 20px;
+    border-radius: 10px;
+    margin: 1rem 0;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    background: linear-gradient(to right, #ff6b81, #f0932b);
+    height: 100%;
+    width: 0%;
+    transition: width 0.3s ease;
+  }
+  
+  .meal-list {
+    margin-top: 1rem;
+    text-align: left;
+  }
+  
+  .meal-item {
+    background: #ffeaa7;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+  
